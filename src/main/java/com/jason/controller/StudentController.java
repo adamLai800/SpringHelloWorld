@@ -14,6 +14,7 @@ public class StudentController {
     @Autowired
     private StudentRepository StudentRepository;
 
+
     //Add
     @PostMapping(path = "/addNew") // Map ONLY POST Requests
     public @ResponseBody String addNew(
