@@ -28,7 +28,7 @@ public class LessonController {
         return "Saved";
     }
 
-    @PostMapping(path = "/addNew") // Map ONLY POST Requests
+    @PostMapping(path = "/addNew2") // Map ONLY POST Requests
     public @ResponseBody String addNew(@RequestBody Lesson lesson) {
         LessonRepository.save(lesson);
         return "Saved";
